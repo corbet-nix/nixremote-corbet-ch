@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/sunshine.nix — declarative Sunshine (LizardByte/Sunshine, github.com/LizardByte/Sunshine)
 # desktop/game streaming host. Sibling to forward.nix: that module PULLS a window FROM a remote
 # peer to look at here; this one is the inverse direction — SERVES this machine's own Wayland

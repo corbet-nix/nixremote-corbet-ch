@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/system-manager.nix — Arch/CachyOS plane: declare this repo's binaries into nixarch's
 # package reconciler.
 #

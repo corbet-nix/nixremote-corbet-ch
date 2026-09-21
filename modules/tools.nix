@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # nixremote's own tool catalogue, resolved — platform-neutral, installs nothing itself. Same
 # shape as nixdev's modules/nixdev.nix and nixfs's modules/nixfs.nix core modules: declares WHAT

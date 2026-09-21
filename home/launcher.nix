@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/launcher.nix — homeManagerModules.launcher: an application launcher whose tabs are MACHINES.
 #
 # ── WHAT IT IS ────────────────────────────────────────────────────────────────────────────────

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/rustdesk-client.nix — nixremote.rustdeskClient: declaratively point THIS machine's RustDesk
 # client at a self-hosted server (`nixosModules.rustdesk`'s own hbbs+hbbr, or any RustDesk server),
 # without fighting the app's own runtime-owned state in the same config file.

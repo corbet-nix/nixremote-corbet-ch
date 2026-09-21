@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # checks/default.nix — eval-time tests for nixosModules.rustdesk AND the home-manager modules
 # (sunshine, console, shpool, forward). No VM, no container actually started: nothing here pulls an
 # image or runs podman/wayvnc/sunshine, it only forces module evaluation (assertions + the

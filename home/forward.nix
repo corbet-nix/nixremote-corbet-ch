@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/forward.nix — nixremote's core module: declarative, address-cascading
 # native Wayland app-window forwarding between two Nix-managed peers, via
 # waypipe's own `ssh` mode.
@@ -605,7 +606,7 @@ let
           doesn't do that for existing streams either, so this isn't a
           feature gap.
 
-          When `nixaudio` (github:julian-corbet/nixaudio-corbet-ch) is composed on this host,
+          When `nixaudio` (github:corbet-nix/nixaudio-corbet-ch) is composed on this host,
           the current default sink is additionally checked against its declared device
           inventory (`nixaudio.fabric.catalogue`, read via `lib.probeFact` — never a flake
           input, see this module's header) before the lookup below is attempted, so a sink

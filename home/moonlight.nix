@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/moonlight.nix — the CLIENT half of this repo's streaming pair.
 #
 # `home/sunshine.nix` serves a machine's Wayland session; this declares the viewer that consumes

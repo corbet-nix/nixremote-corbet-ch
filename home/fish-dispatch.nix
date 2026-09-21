@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/fish-dispatch.nix — nixremote's fish integration: `<app>@<peer>`
 # command dispatch (e.g. `firefox@some-peer`), matching the tmux@<host>/
 # zellij@<host> convention already in use here. Purely additive on

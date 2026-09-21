@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/rustdesk.nix — a self-hosted RustDesk server (hbbs ID/rendezvous +
 # hbbr relay) as ONE podman container, via the upstream `rustdesk-server-s6`
 # image. That image runs s6-overlay as its own init, supervising BOTH hbbs

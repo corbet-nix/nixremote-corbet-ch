@@ -1,10 +1,11 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixremote — declarative persistent terminals, native Wayland app forwarding, and remote desktops over Nix";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-    # nixhost IS an input, for exactly one thing: `lib.probeFact` (github:julian-corbet/
+    # nixhost IS an input, for exactly one thing: `lib.probeFact` (github:corbet-nix/
     # nixhost-corbet-ch, `lib/facts.nix`) -- the shared, plain-function fix for the
     # cross-namespace defensive-read defect class (a bare `config.nixfoo.bar or fallback` cannot
     # tell "nixfoo not composed here" from "nixfoo composed but `bar` moved/renamed/rejected" --
@@ -16,7 +17,7 @@
     # forward.nix's own header for what that buys it, and what it deliberately does not). This is
     # the same shape nixscroll/nixarch already use this input for.
     nixhost = {
-      url = "git+https://github.com/julian-corbet/nixhost-corbet-ch";
+      url = "git+https://github.com/corbet-nix/nixhost-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

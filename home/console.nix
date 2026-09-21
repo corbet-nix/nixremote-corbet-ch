@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/console.nix — nixremote.console.<name>: wayvnc + noVNC, the "full session in a browser"
 # leg neither forward.nix (pull one window FROM a peer) nor sunshine.nix (game-stream THIS
 # session to a purpose-built client) covers: an ordinary VNC client, or nothing more than a

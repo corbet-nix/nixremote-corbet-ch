@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/shpool.nix — persistent remote shells without a terminal multiplexer UI.
 #
 # shpool owns the remote PTY and shell while the local terminal remains an ordinary terminal.

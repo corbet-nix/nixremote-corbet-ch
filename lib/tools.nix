@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The tool catalogue: one entry per selectable binary this repo declares, naming it on each
 # platform. Same family shape as nixdev's lib/tools.nix and nixfs's lib/catalogue.nix (see either

@@ -30,7 +30,7 @@ each platform: `nixosModules.tools` resolves the matching nixpkgs derivations
 into `environment.systemPackages`; `systemManagerModules.default` publishes the
 official-repository and AUR package names separately for an Arch reconciler.
 
-It's deliberately **not** coupled to [nixarch](https://github.com/julian-corbet/nixarch-corbet-ch)
+It's deliberately **not** coupled to [nixarch](https://github.com/corbet-nix/nixarch-corbet-ch)
 — nixarch's job is making sure a machine has a working Wayland compositor and
 a compatible stack; nixremote's job starts *after* that's already true, and
 only needs `nixpkgs` + `home-manager`. That split is what makes it an
@@ -548,12 +548,13 @@ because the icon *name* in its `.desktop` file resolves against the *local* icon
 ## Related projects
 
 nixremote is one of several small, independently-usable open-source projects
-sharing a common design system: [nixarch](https://github.com/julian-corbet/nixarch-corbet-ch)
+sharing a common design system: [nixarch](https://github.com/corbet-nix/nixarch-corbet-ch)
 (declarative Arch/CachyOS via system-manager + home-manager), nixvps (tiny
 sub-1GB NixOS VPS profiles), nixram (RAM/memory tuning), nixnas (a NixOS
 distro build). nixremote's own niche is the cross-machine app-forwarding
 layer — usable alongside any of them, or standalone.
 
-## License
 
-[MIT License](LICENSE) © 2026 Julian Corbet
+## Licence
+
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

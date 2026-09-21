@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # NixOS backend — resolves nixremote's selected transport tools into
 # environment.systemPackages. The catalogue remains the single source of package names; Arch
 # hands its names to nixarch's reconciler, while NixOS can resolve the nixpkgs attributes directly
